@@ -8,7 +8,8 @@
     "start": "node dist/*.js",
     "build": "tsc -p .",
     "start-builder": "nodemon src/builder/index.ts",
-    "start-composite": "nodemon src/structural-pattern/composite/index.ts"
+    "start-composite": "nodemon src/structural-pattern/composite/index.ts",
+    "start-COR": "nodemon src/behavioral-pattern/chain-of-responsibilities-pattern/index.ts"
   },
   "author": "",
   "license": "ISC",
